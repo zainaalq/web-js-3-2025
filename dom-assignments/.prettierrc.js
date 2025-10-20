@@ -1,8 +1,8 @@
-// sample .prettierrc.mjs
-const config = {
+module.exports = {
   semi: true,
   singleQuote: true,
   bracketSpacing: false,
+  singleQuote: true,
   trailingComma: 'es5',
+  arrowParens: 'avoid',
 };
-export default config;
